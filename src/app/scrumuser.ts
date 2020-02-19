@@ -4,6 +4,15 @@ export class Scrumuser {
     public email: string,
     public password: string,
     public type: string,
-    public projectname: string
+    public projname: string,
+  ) {}
+}
+
+
+export class ScrumUserLoginData {
+  constructor(
+    public email: string,
+    public password: string,
+    public projname: string,
   ) {}
 }
